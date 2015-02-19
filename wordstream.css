@@ -110,10 +110,7 @@
 
 .center-text {
   text-align: center;
-}
-
-.center-text p {
-  width: 90%;
+  padding: 0px 0px 0px 30px;
 }
 
 .left-content hr {
@@ -135,8 +132,13 @@
 }
 
 .trial-button {
-  background-color: orange;
   margin-bottom: 10px;
+  background: linear-gradient(#f9a32c, #e96700, #e14900);
+}
+
+.demo-button {
+    background: linear-gradient(#31a0e3, #2897dd, #187cc3);
+
 }
 
 .ad-text {
@@ -165,15 +167,16 @@
   vertical-align: top;
 }
 
-.graded-button p {
+button.graded-button {
   background-color: #154b77;
-  width: 75%;
+  width: 85%;
   padding: 10px 22px 10px 10px;
   line-height: 10px;
   text-align: center;
   color: white;
-  font-size: 13px;
+  font-size: 12px;
   border-radius: 10px;
+  background: linear-gradient(#2575b2, #1a598b, #042d50);
 
 }
 
@@ -253,7 +256,7 @@
   border: 5px solid #74b3ee;
   margin: 10px 20px 10px 0px;
   display: inline-block;
-  height: 135px;
+  height: 155px;
 
 }
 
@@ -282,6 +285,10 @@
   color: white;
   font-size: 13px;
   border-radius: 10px;
+  background: linear-gradient(#bad568, #90b00f, #c4d823);
+  border-color: #497300;
+  border-style: solid;
+  border-width: 2px;
 }
 
 .right-content h3 {
